@@ -3,7 +3,7 @@
       "name": "sdm845",
       "repo": "https://github.com/Suraj-Sangwan/android_kernel_oneplus_sdm845",
       "branch": "lineage-22.2",
-      "device": "fajita"
+      "device": "enchilada"
     },
     "withKernelSU": false,
     "toolchains": [
