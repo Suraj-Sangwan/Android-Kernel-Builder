@@ -51,6 +51,7 @@ jobs:
 
       - name: "⭐ Install prerequisites"
         run: |
+          deb http://archive.debian.org/debian/ stretch contrib main non-free
           sudo apt-get update
           sudo apt-get install -y build-essential bc curl git zip ftp gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi libssl-dev lftp zstd wget libfl-dev python2 python3 libarchive-tools
 
